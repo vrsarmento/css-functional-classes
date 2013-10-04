@@ -27,6 +27,7 @@
 .vert-bottom{vertical-align: bottom;}
 
 .overflow-hidden{overflow: hidden;}
+.overflow-visible{overflow: visible;}
 
 
 /*Texts*/
@@ -191,6 +192,10 @@
 .padding-0{padding:0!important;}
 .padding-0-10{padding:0px 10px!important;}
 .padding-0-20{padding:0px 20px!important;}
+.padding-0-30{padding:0px 30px!important;}
+.padding-0-40{padding:0px 40px!important;}
+.padding-0-50{padding:0px 50px!important;}
+.padding-0-100{padding:0px 100px!important;}
 .padding-5{padding:5px!important;}
 .padding-5-20{padding:5px 20px!important;}
 .padding-5-40{padding:5px 40px!important;}
@@ -258,19 +263,23 @@
 .border-blue{border-color: #036f9c;}
 
 /* Rounded Borders */
-.rounded-right{border-radius: 0 16px 16px 0;}
-.rounded-left{border-radius: 16px 0 0 16px;}
-.rounded-bottom{border-radius: 0 0 16px 16px;}
-.rounded-top{border-radius: 16px 16px 0 0;}
-.rounded-full{border-radius: 16px;}
-.rounded-small{border-radius: 6px;}
-.rounded{border-radius: 1000px;}
+.rounded-right{border-radius: 0 16px 16px 0;-webkit-background-clip:padding-box; -moz-background-clip:padding; background-clip:padding-box;}
+.rounded-left{border-radius: 16px 0 0 16px;-webkit-background-clip:padding-box; -moz-background-clip:padding; background-clip:padding-box;}
+.rounded-bottom{border-radius: 0 0 16px 16px;-webkit-background-clip:padding-box; -moz-background-clip:padding; background-clip:padding-box;}
+.rounded-top{border-radius: 16px 16px 0 0;-webkit-background-clip:padding-box; -moz-background-clip:padding; background-clip:padding-box;}
+.rounded-full{border-radius: 16px;-webkit-background-clip:padding-box; -moz-background-clip:padding; background-clip:padding-box;}
+.rounded-small{border-radius: 6px;-webkit-background-clip:padding-box; -moz-background-clip:padding; background-clip:padding-box;}
+.rounded{border-radius: 1000px;-webkit-background-clip:padding-box; -moz-background-clip:padding; background-clip:padding-box;}
 
 /*z-index*/
 .index-1{z-index: 1;}
 .index-2{z-index: 2;}
 .index-3{z-index: 3;}
+.index-4{z-index: 4;}
+.index-5{z-index: 5;}
+.index-50{z-index: 50;}
 .index-100{z-index: 100;}
+.index-1000{z-index: 1000;}
 
 /*Gradients*/
 .yellow-to-orange{
