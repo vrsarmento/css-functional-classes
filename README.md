@@ -1,4 +1,4 @@
-css-functional-classes
+CSS Functional Classes
 ======================
 
-Classes que podem ser reutilizadas de acordo com a necessidade.
+Classes que podem ser utilizadas de acordo com a necessidade.
