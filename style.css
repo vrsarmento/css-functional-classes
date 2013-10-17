@@ -59,6 +59,9 @@
 .lowercase{text-transform: lowercase !important;}
 .nocase{text-transform: none !important;}
 
+.nowrap{white-space: nowrap;}
+.normalwrap{white-space: normal;}
+
 .line-height-50{line-height: 50% !important;}
 .line-height-100{line-height: 100% !important;}
 .line-height-120{line-height: 120% !important;}
